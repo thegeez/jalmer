@@ -1,0 +1,12 @@
+{% extends "test/resources/_base.html" %}
+{% block head %}
+<header-entry from="index.html">
+{% endblock %}
+{% block content %}
+<h2>Main content</h2>
+<ul>
+{% for item in (getx args :items) %}
+{% include "test/resources/_for_item.html" %}
+{% endfor %}
+</ul>
+{% endblock %}
