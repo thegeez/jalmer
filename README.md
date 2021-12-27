@@ -7,6 +7,12 @@ Template library for [Janet][janetlang]. Mix of [Selmer][selmer] and [Temple][te
 [selmer]: https://github.com/yogthos/Selmer
 [temple]: https://git.sr.ht/~bakpakin/temple
 
+## Dependency
+```
+(declare-project
+ ....
+ :dependencies [{:repo "https://github.com/thegeez/jalmer" :tag "main"}])
+```
 
 ## Usage
 ```
